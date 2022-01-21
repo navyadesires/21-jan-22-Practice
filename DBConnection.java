@@ -12,7 +12,7 @@ public class DBConnection {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// step 2 => Establish the connection to DB
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/naidudb", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb1", "root", "root");
 
 		} catch (Exception e) {
 			e.printStackTrace();
